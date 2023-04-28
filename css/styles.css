@@ -11,3 +11,7 @@
 .clearfix {
     clear: both;
 }
+
+.secondary {
+    display: flex;
+}
