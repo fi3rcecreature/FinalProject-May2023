@@ -1,12 +1,14 @@
+/* General Styles */
+
 .column {
     float: left;
     width: 50%;
 }
 
-/* .row::after {
+.row::after {
     content: "";
     clear: both;
-} */
+}
 
 .clearfix {
     clear: both;
@@ -14,4 +16,37 @@
 
 .secondary {
     display: flex;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+}
+
+/* Forms */
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color:rgb(7, 118, 124);
+}
+
+input[type=submit] {
+    background-color: rgb(7, 118, 124);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(3, 54, 57);
+}
+
+.contact-container {
+    background-color: rgba(7, 118, 124, 0.16);
+    padding: 25px;
 }
