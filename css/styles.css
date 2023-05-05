@@ -23,6 +23,16 @@
     width: 25%;
 }
 
+/* Typography */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; 
+}
+
 /* Forms */
 
 input[type=text], textarea {
