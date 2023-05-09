@@ -2,7 +2,7 @@
 
 .column {
     float: left;
-    width: 50%;
+    width: 33.33%;
 }
 
 .row::after {
@@ -17,6 +17,8 @@
 .secondary {
     display: flex;
 }
+
+
 
 .column4 {
     float: left;
@@ -59,4 +61,27 @@ input[type=submit]:hover {
 .contact-container {
     background-color: rgba(7, 118, 124, 0.16);
     padding: 25px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(3, 54, 57);
+    padding: 15px;
+    color: #ffffff;
+}
+
+.fa-brands {
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.fa-tiktok {
+    background-color: #ffffff;
+    color:rgb(3, 54, 57)
+}
+
+.fa-tiktok:hover {
+    background-color: rgb(7, 118, 124);
 }
